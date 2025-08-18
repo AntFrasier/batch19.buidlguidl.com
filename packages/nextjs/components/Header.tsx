@@ -96,7 +96,7 @@ export const Header = () => {
         </ul>
       </div>
 
-      <div className="navbar-end grow mr-4">
+      <div className="navbar-end grow mr-4 relative">
         <BatchInfo />
         <RainbowKitCustomConnectButton />
         {isLocalNetwork && <FaucetButton />}
